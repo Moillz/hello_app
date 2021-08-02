@@ -101,10 +101,16 @@ GEM
       nokogiri (~> 1)
       rake
     mini_mime (1.1.0)
+    mini_portile2 (2.5.3)
     minitest (5.14.4)
     msgpack (1.4.2)
     nio4r (2.5.7)
+    nokogiri (1.11.7)
+      mini_portile2 (~> 2.5.0)
+      racc (~> 1.4)
     nokogiri (1.11.7-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.11.7-x86_64-linux)
       racc (~> 1.4)
     pg (1.2.3)
     public_suffix (4.0.6)
@@ -203,6 +209,8 @@ GEM
 
 PLATFORMS
   arm64-darwin-20
+  ruby
+  x86_64-linux
 
 DEPENDENCIES
   bootsnap (= 1.7.2)
@@ -227,4 +235,4 @@ RUBY VERSION
    ruby 3.0.1p64
 
 BUNDLED WITH
-   2.2.15
+   2.2.25
